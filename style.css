@@ -1,0 +1,114 @@
+body{
+    background-color: #1e1841;  /*color fondo*/
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+.nav-boton{
+    padding: 20px;
+    background-color: #443d70;
+    margin: 10px;
+}
+.nav-boton:hover{
+    background-color: rgb(155, 58, 28);
+}
+
+#Volver{
+    width: 6.2%;
+}
+
+.BotonOp{                                    /*  'nav' = botones */
+    background-color: rgb(243, 80, 31);         
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    cursor:pointer;
+    border-radius:4px;
+}
+.BotonOp:hover{
+    background-color: rgb(89, 253, 157);
+    color: rgb(13, 12, 14);
+}
+.BotonOp:active{
+    background-color:rgb(45, 192, 255);
+    color:cornsilk;
+}
+
+
+.nav-porcentaje{
+    padding: 20px;
+    background-color: #554e83;
+    margin: 10px;
+}
+.nav-porcentaje:hover{
+    background-color: rgb(155, 58, 28);
+}
+
+
+.Texto{
+    background-color: #4a84aa;
+    padding: 40px 40px;
+    margin: 10px;
+    color: rgb(235, 225, 225);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.FormIngreso{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*Porcentajes*/
+
+#comoUsar{
+    background-color: #443d70;
+    color: wheat;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px;
+    text-shadow: black 2px 4px 1px;
+}
+
+.container{
+    display: flex;
+}
+.ejemplos-container{
+    background-color: #443d70;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 8px;
+    color: whitesmoke;
+    width: 300px;
+    font-size: 16px;
+    box-shadow: black 0px 5px 16px 2px; /*0px= ejeX 5px=ejeY 16px=Blur 2px=padding*/
+}
+h2{
+    text-align: center;
+    color: wheat;
+    text-shadow: black 2px 2px;
+}
+h3{
+    text-align: center;
+    color: wheat;
+}
+
+.example{ /*Lista de ejemplos para porcentajes*/
+    margin-bottom: 10px;
+}
+
+@media(max-width: 850px){
+    .nav-porcentaje{
+        display:flex;
+        flex-direction: column;  
+        margin: 5px; 
+    }
+    .BotonOp{
+        display:flex;
+        flex-direction: column;
+        margin: 10px 5px;
+    }
+}
